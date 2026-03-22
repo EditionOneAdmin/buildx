@@ -21,8 +21,8 @@ const barlow = Barlow({
 })
 
 export const metadata: Metadata = {
-  title: 'Pascal Editor',
-  description: 'Standalone building editor',
+  title: 'BuildX — 3D Building Editor',
+  description: 'BuildX by U-Plan Engine — 3D Gebäude-Editor für Projektentwickler',
 }
 
 export default function RootLayout({

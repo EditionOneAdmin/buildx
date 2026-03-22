@@ -1,35 +1,22 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  output: "export",
+  basePath: "/buildx",
+  trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
   },
-  transpilePackages: ['three', '@pascal-app/viewer', '@pascal-app/core', '@pascal-app/editor'],
+  transpilePackages: ['three', '@pascal-app/viewer', '@pascal-app/core', '@pascal-app/editor', '@pascal-app/ui'],
   turbopack: {
     resolveAlias: {
-      react: './node_modules/react',
-      three: './node_modules/three',
-      '@react-three/fiber': './node_modules/@react-three/fiber',
-      '@react-three/drei': './node_modules/@react-three/drei',
-    },
-  },
-  experimental: {
-    serverActions: {
-      bodySizeLimit: '100mb',
+      '@pascal-app/core': '../../packages/core/src/index.ts',
+      '@pascal-app/viewer': '../../packages/viewer/src/index.ts',
+      '@pascal-app/editor': '../../packages/editor/src/index.tsx',
     },
   },
   images: {
-    unoptimized: process.env.NEXT_PUBLIC_ASSETS_CDN_URL?.startsWith('http://localhost') ?? false,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-      {
-        protocol: 'http',
-        hostname: '**',
-      },
-    ],
+    unoptimized: true,
   },
 }
 
