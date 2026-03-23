@@ -20,7 +20,7 @@ type ModeConfig = {
 const allModes: ModeConfig[] = [
   {
     id: 'select',
-    imageSrc: '/icons/select.png',
+    imageSrc: '/buildx/icons/select.png',
     label: 'Select',
     shortcut: 'V',
     color: 'hover:bg-blue-500/20 hover:text-blue-400',
@@ -36,7 +36,7 @@ const allModes: ModeConfig[] = [
   },
   {
     id: 'build',
-    imageSrc: '/icons/build.png',
+    imageSrc: '/buildx/icons/build.png',
     label: 'Build',
     shortcut: 'B',
     color: 'hover:bg-green-500/20 hover:text-green-400',

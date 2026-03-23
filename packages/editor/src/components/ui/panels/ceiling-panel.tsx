@@ -112,7 +112,7 @@ export function CeilingPanel() {
 
   return (
     <PanelWrapper
-      icon="/icons/ceiling.png"
+      icon="/buildx/icons/ceiling.png"
       onClose={handleClose}
       title={node.name || 'Ceiling'}
       width={320}

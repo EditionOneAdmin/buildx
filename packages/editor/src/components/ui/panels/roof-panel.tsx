@@ -36,7 +36,7 @@ export function RoofPanel() {
 
   return (
     <PanelWrapper
-      icon="/icons/roof.png"
+      icon="/buildx/icons/roof.png"
       onClose={handleClose}
       title={node.name || 'Roof'}
       width={300}

@@ -16,31 +16,31 @@ export type FurnishToolConfig = {
 export const furnishTools: FurnishToolConfig[] = [
   {
     id: 'item',
-    iconSrc: '/icons/couch.png',
+    iconSrc: '/buildx/icons/couch.png',
     label: 'Furniture',
     catalogCategory: 'furniture',
   },
   {
     id: 'item',
-    iconSrc: '/icons/appliance.png',
+    iconSrc: '/buildx/icons/appliance.png',
     label: 'Appliance',
     catalogCategory: 'appliance',
   },
   {
     id: 'item',
-    iconSrc: '/icons/kitchen.png',
+    iconSrc: '/buildx/icons/kitchen.png',
     label: 'Kitchen',
     catalogCategory: 'kitchen',
   },
   {
     id: 'item',
-    iconSrc: '/icons/bathroom.png',
+    iconSrc: '/buildx/icons/bathroom.png',
     label: 'Bathroom',
     catalogCategory: 'bathroom',
   },
   {
     id: 'item',
-    iconSrc: '/icons/tree.png',
+    iconSrc: '/buildx/icons/tree.png',
     label: 'Outdoor',
     catalogCategory: 'outdoor',
   },

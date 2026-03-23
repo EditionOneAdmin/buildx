@@ -21,8 +21,8 @@ interface IconRailProps {
 }
 
 const panels: { id: PanelId; iconSrc: string; label: string }[] = [
-  { id: 'site', iconSrc: '/icons/level.png', label: 'Site' },
-  { id: 'settings', iconSrc: '/icons/settings.png', label: 'Settings' },
+  { id: 'site', iconSrc: '/buildx/icons/level.png', label: 'Site' },
+  { id: 'settings', iconSrc: '/buildx/icons/settings.png', label: 'Settings' },
 ]
 
 export function IconRail({ activePanel, onPanelChange, appMenuButton, className }: IconRailProps) {

@@ -19,15 +19,15 @@ export type ToolConfig = {
 }
 
 export const tools: ToolConfig[] = [
-  { id: 'wall', iconSrc: '/icons/wall.png', label: 'Wall' },
-  // { id: 'room', iconSrc: '/icons/room.png', label: 'Room' },
-  // { id: 'custom-room', iconSrc: '/icons/custom-room.png', label: 'Custom Room' },
-  { id: 'slab', iconSrc: '/icons/floor.png', label: 'Slab' },
-  { id: 'ceiling', iconSrc: '/icons/ceiling.png', label: 'Ceiling' },
-  { id: 'roof', iconSrc: '/icons/roof.png', label: 'Gable Roof' },
-  { id: 'door', iconSrc: '/icons/door.png', label: 'Door' },
-  { id: 'window', iconSrc: '/icons/window.png', label: 'Window' },
-  { id: 'zone', iconSrc: '/icons/zone.png', label: 'Zone' },
+  { id: 'wall', iconSrc: '/buildx/icons/wall.png', label: 'Wall' },
+  // { id: 'room', iconSrc: '/buildx/icons/room.png', label: 'Room' },
+  // { id: 'custom-room', iconSrc: '/buildx/icons/custom-room.png', label: 'Custom Room' },
+  { id: 'slab', iconSrc: '/buildx/icons/floor.png', label: 'Slab' },
+  { id: 'ceiling', iconSrc: '/buildx/icons/ceiling.png', label: 'Ceiling' },
+  { id: 'roof', iconSrc: '/buildx/icons/roof.png', label: 'Gable Roof' },
+  { id: 'door', iconSrc: '/buildx/icons/door.png', label: 'Door' },
+  { id: 'window', iconSrc: '/buildx/icons/window.png', label: 'Window' },
+  { id: 'zone', iconSrc: '/buildx/icons/zone.png', label: 'Zone' },
 ]
 
 export function StructureTools() {

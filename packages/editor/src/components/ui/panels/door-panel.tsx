@@ -173,7 +173,7 @@ export function DoorPanel() {
 
   return (
     <PanelWrapper
-      icon="/icons/door.png"
+      icon="/buildx/icons/door.png"
       onClose={handleClose}
       title={node.name || 'Door'}
       width={320}

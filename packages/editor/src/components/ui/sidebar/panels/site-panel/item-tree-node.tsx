@@ -8,13 +8,13 @@ import { handleTreeSelection, TreeNode, TreeNodeWrapper } from './tree-node'
 import { TreeNodeActions } from './tree-node-actions'
 
 const CATEGORY_ICONS: Record<string, string> = {
-  door: '/icons/door.png',
-  window: '/icons/window.png',
-  furniture: '/icons/couch.png',
-  appliance: '/icons/appliance.png',
-  kitchen: '/icons/kitchen.png',
-  bathroom: '/icons/bathroom.png',
-  outdoor: '/icons/tree.png',
+  door: '/buildx/icons/door.png',
+  window: '/buildx/icons/window.png',
+  furniture: '/buildx/icons/couch.png',
+  appliance: '/buildx/icons/appliance.png',
+  kitchen: '/buildx/icons/kitchen.png',
+  bathroom: '/buildx/icons/bathroom.png',
+  outdoor: '/buildx/icons/tree.png',
 }
 
 interface ItemTreeNodeProps {
@@ -26,7 +26,7 @@ interface ItemTreeNodeProps {
 export function ItemTreeNode({ node, depth, isLast }: ItemTreeNodeProps) {
   const [isEditing, setIsEditing] = useState(false)
   const [expanded, setExpanded] = useState(true)
-  const iconSrc = CATEGORY_ICONS[node.asset.category] || '/icons/couch.png'
+  const iconSrc = CATEGORY_ICONS[node.asset.category] || '/buildx/icons/couch.png'
   const selectedIds = useViewer((state) => state.selection.selectedIds)
   const isSelected = selectedIds.includes(node.id)
   const isHovered = useViewer((state) => state.hoveredId === node.id)

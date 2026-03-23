@@ -176,7 +176,7 @@ export function WindowPanel() {
 
   return (
     <PanelWrapper
-      icon="/icons/window.png"
+      icon="/buildx/icons/window.png"
       onClose={handleClose}
       title={node.name || 'Window'}
       width={320}

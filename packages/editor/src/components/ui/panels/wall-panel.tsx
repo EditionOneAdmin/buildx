@@ -40,7 +40,7 @@ export function WallPanel() {
 
   return (
     <PanelWrapper
-      icon="/icons/wall.png"
+      icon="/buildx/icons/wall.png"
       onClose={handleClose}
       title={node.name || 'Wall'}
       width={280}

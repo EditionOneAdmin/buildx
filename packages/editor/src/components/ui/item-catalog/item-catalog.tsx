@@ -65,10 +65,10 @@ export function ItemCatalog({ category }: { category: CatalogCategory }) {
   // Get attachment icon based on attachTo type
   const getAttachmentIcon = (attachTo: AssetInput['attachTo']) => {
     if (attachTo === 'wall' || attachTo === 'wall-side') {
-      return '/icons/wall.png'
+      return '/buildx/icons/wall.png'
     }
     if (attachTo === 'ceiling') {
-      return '/icons/ceiling.png'
+      return '/buildx/icons/ceiling.png'
     }
     return null
   }
