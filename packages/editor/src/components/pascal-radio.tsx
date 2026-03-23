@@ -11,43 +11,43 @@ import useAudio from '../store/use-audio'
 const PLAYLIST = [
   {
     title: 'Ballroom in Miniature',
-    file: '/audios/radios/classic/Ballroom in Miniature.mp3',
+    file: '/buildx/audios/radios/classic/Ballroom in Miniature.mp3',
   },
   {
     title: 'Blueprints in Springtime',
-    file: '/audios/radios/classic/Blueprints in Springtime.mp3',
+    file: '/buildx/audios/radios/classic/Blueprints in Springtime.mp3',
   },
   {
     title: 'Clockwork Tea Party',
-    file: '/audios/radios/classic/Clockwork Tea Party.mp3',
+    file: '/buildx/audios/radios/classic/Clockwork Tea Party.mp3',
   },
   {
     title: 'Clockwork Tea Party (Alternate)',
-    file: '/audios/radios/classic/Clockwork Tea Party (Alternate).mp3',
+    file: '/buildx/audios/radios/classic/Clockwork Tea Party (Alternate).mp3',
   },
   {
     title: 'Clockwork Teacups',
-    file: '/audios/radios/classic/Clockwork Teacups.mp3',
+    file: '/buildx/audios/radios/classic/Clockwork Teacups.mp3',
   },
   {
     title: 'Evening in the Parlor',
-    file: '/audios/radios/classic/Evening in the Parlor.mp3',
+    file: '/buildx/audios/radios/classic/Evening in the Parlor.mp3',
   },
   {
     title: 'Glass Atrium',
-    file: '/audios/radios/classic/Glass Atrium.mp3',
+    file: '/buildx/audios/radios/classic/Glass Atrium.mp3',
   },
   {
     title: 'Moonlight On The Drafting Table',
-    file: '/audios/radios/classic/Moonlight On The Drafting Table.mp3',
+    file: '/buildx/audios/radios/classic/Moonlight On The Drafting Table.mp3',
   },
   {
     title: 'Sunlit Garden Reverie',
-    file: '/audios/radios/classic/Sunlit Garden Reverie.mp3',
+    file: '/buildx/audios/radios/classic/Sunlit Garden Reverie.mp3',
   },
   {
     title: 'Sunlit Waltz in Pastel Hues',
-    file: '/audios/radios/classic/Sunlit Waltz in Pastel Hues.mp3',
+    file: '/buildx/audios/radios/classic/Sunlit Waltz in Pastel Hues.mp3',
   },
 ]
 

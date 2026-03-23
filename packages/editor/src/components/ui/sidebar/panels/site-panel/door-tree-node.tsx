@@ -32,7 +32,7 @@ export function DoorTreeNode({ node, depth, isLast }: DoorTreeNodeProps) {
       expanded={false}
       hasChildren={false}
       icon={
-        <Image alt="" className="object-contain" height={14} src="/icons/door.png" width={14} />
+        <Image alt="" className="object-contain" height={14} src="/buildx/icons/door.png" width={14} />
       }
       isHovered={isHovered}
       isLast={isLast}

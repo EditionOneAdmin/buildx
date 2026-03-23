@@ -53,7 +53,7 @@ export function RoofTreeNode({ node, depth, isLast }: RoofTreeNodeProps) {
       expanded={false}
       hasChildren={false}
       icon={
-        <Image alt="" className="object-contain" height={14} src="/icons/roof.png" width={14} />
+        <Image alt="" className="object-contain" height={14} src="/buildx/icons/roof.png" width={14} />
       }
       isHovered={isHovered}
       isLast={isLast}

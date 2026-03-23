@@ -21,18 +21,18 @@ const wallModeConfig: Record<
 > = {
   up: {
     icon: (props) => (
-      <img alt="Full Height" height={20} src="/icons/room.png" width={20} {...props} />
+      <img alt="Full Height" height={20} src="/buildx/icons/room.png" width={20} {...props} />
     ),
     label: 'Full Height',
   },
   cutaway: {
     icon: (props) => (
-      <img alt="Cutaway" height={20} src="/icons/wallcut.png" width={20} {...props} />
+      <img alt="Cutaway" height={20} src="/buildx/icons/wallcut.png" width={20} {...props} />
     ),
     label: 'Cutaway',
   },
   down: {
-    icon: (props) => <img alt="Low" height={20} src="/icons/walllow.png" width={20} {...props} />,
+    icon: (props) => <img alt="Low" height={20} src="/buildx/icons/walllow.png" width={20} {...props} />,
     label: 'Low',
   },
 }
@@ -137,7 +137,7 @@ export function ViewToggles() {
         size="icon"
         variant="ghost"
       >
-        <img alt="Scans" className="h-[28px] w-[28px] object-contain" src="/icons/mesh.png" />
+        <img alt="Scans" className="h-[28px] w-[28px] object-contain" src="/buildx/icons/mesh.png" />
       </ActionButton>
 
       {/* Show Guides */}
@@ -153,7 +153,7 @@ export function ViewToggles() {
         size="icon"
         variant="ghost"
       >
-        <img alt="Guides" className="h-[28px] w-[28px] object-contain" src="/icons/floorplan.png" />
+        <img alt="Guides" className="h-[28px] w-[28px] object-contain" src="/buildx/icons/floorplan.png" />
       </ActionButton>
     </div>
   )

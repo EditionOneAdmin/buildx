@@ -31,7 +31,7 @@ export function CameraActions() {
           alt="Orbit Left"
           className="h-[28px] w-[28px] -scale-x-100 object-contain opacity-70 transition-opacity group-hover:opacity-100"
           height={28}
-          src="/icons/rotate.png"
+          src="/buildx/icons/rotate.png"
           width={28}
         />
       </ActionButton>
@@ -48,7 +48,7 @@ export function CameraActions() {
           alt="Orbit Right"
           className="h-[28px] w-[28px] object-contain opacity-70 transition-opacity group-hover:opacity-100"
           height={28}
-          src="/icons/rotate.png"
+          src="/buildx/icons/rotate.png"
           width={28}
         />
       </ActionButton>
@@ -65,7 +65,7 @@ export function CameraActions() {
           alt="Top View"
           className="h-[28px] w-[28px] object-contain opacity-70 transition-opacity group-hover:opacity-100"
           height={28}
-          src="/icons/topview.png"
+          src="/buildx/icons/topview.png"
           width={28}
         />
       </ActionButton>

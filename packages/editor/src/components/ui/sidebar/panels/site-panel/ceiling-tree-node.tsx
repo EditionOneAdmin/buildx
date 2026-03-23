@@ -73,7 +73,7 @@ export function CeilingTreeNode({ node, depth, isLast }: CeilingTreeNodeProps) {
       expanded={expanded}
       hasChildren={node.children.length > 0}
       icon={
-        <Image alt="" className="object-contain" height={14} src="/icons/ceiling.png" width={14} />
+        <Image alt="" className="object-contain" height={14} src="/buildx/icons/ceiling.png" width={14} />
       }
       isHovered={isHovered}
       isLast={isLast}

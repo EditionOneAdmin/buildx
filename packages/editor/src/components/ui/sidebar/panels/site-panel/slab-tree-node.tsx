@@ -52,7 +52,7 @@ export function SlabTreeNode({ node, depth, isLast }: SlabTreeNodeProps) {
       expanded={false}
       hasChildren={false}
       icon={
-        <Image alt="" className="object-contain" height={14} src="/icons/floor.png" width={14} />
+        <Image alt="" className="object-contain" height={14} src="/buildx/icons/floor.png" width={14} />
       }
       isHovered={isHovered}
       isLast={isLast}

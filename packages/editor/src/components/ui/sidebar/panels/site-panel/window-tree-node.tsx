@@ -32,7 +32,7 @@ export function WindowTreeNode({ node, depth, isLast }: WindowTreeNodeProps) {
       expanded={false}
       hasChildren={false}
       icon={
-        <Image alt="" className="object-contain" height={14} src="/icons/window.png" width={14} />
+        <Image alt="" className="object-contain" height={14} src="/buildx/icons/window.png" width={14} />
       }
       isHovered={isHovered}
       isLast={isLast}

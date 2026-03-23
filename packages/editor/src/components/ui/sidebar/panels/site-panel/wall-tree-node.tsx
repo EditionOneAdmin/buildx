@@ -71,7 +71,7 @@ export function WallTreeNode({ node, depth, isLast }: WallTreeNodeProps) {
       expanded={expanded}
       hasChildren={node.children.length > 0}
       icon={
-        <Image alt="" className="object-contain" height={14} src="/icons/wall.png" width={14} />
+        <Image alt="" className="object-contain" height={14} src="/buildx/icons/wall.png" width={14} />
       }
       isHovered={isHovered}
       isLast={isLast}
